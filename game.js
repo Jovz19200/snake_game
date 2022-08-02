@@ -40,6 +40,7 @@ window.requestAnimationFrame(main);
      updateSnake();
      updateFood();
      checkForDeath();
+     
  }
  function draw(){
     gameBoard.innerHTML="";// helps the snake leave the last part blank after going.
